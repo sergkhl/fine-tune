@@ -10,7 +10,7 @@ Once the PyTorch model generates valid syntax, it must be converted for edge dep
 3. Quantization: Apply post-training quantization (e.g., INT8 dynamic range quantization) during the conversion step to ensure the model fits within mobile memory constraints.
 
 The notebook will run on a Google Colab T4 GPU (16GB VRAM). Optimize for strict memory constraints using 4-bit NormalFloat (NF4) quantization and a LoRA rank of 16.
-Model: `https://huggingface.co/google/gemma-2-2b-it`
+Model: `https://huggingface.co/google/gemma-3-1b-it`
 Example Notebook: `https://github.com/google-gemma/cookbook/blob/main/FunctionGemma/%5BFunctionGemma%5DFinetune_FunctionGemma_270M_for_Mobile_Actions_with_Hugging_Face.ipynb`
  
 Dataset: `https://huggingface.co/datasets/colinfrisch/diagrams-mermaid-filtered`
